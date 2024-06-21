@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horváth Hanna - Projektek</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Horváth Hanna</h1>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li><a href="#about">Rólam</a></li>
+                    <li><a href="#projects">Projektek</a></li>
+                    <li><a href="#contact">Kapcsolat</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section__title">Rólam</h2>
+                <p class="section__content">Ezen az oldalon a projektjeimet szeretném bemutatni.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section__title">Projektek</h2>
+                <div class="project">
+                    <h3 class="project__title">Projekt 1</h3>
+                    <p class="project__description">Projekt 1 leírása</p>
+                    <a href="#" class="btn">További információ</a>
+                </div>
+                <div class="project">
+                    <h3 class="project__title">Projekt 2</h3>
+                    <p class="project__description">Projekt 2 leírása</p>
+                    <a href="#" class="btn">További információ</a>
+                </div>
+                <div class="project">
+                    <h3 class="project__title">Projekt 3</h3>
+                    <p class="project__description">Projekt 3 leírása</p>
+                    <a href="#" class="btn">További információ</a>
+                </div>
+                <div class="project">
+                    <h3 class="project__title">Projekt 4</h3>
+                    <p class="project__description">Projekt 4 leírása</p>
+                    <a href="#" class="btn">További információ</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section__title">Kapcsolat felvétel</h2>
+                <form action="#" method="POST" class="contact-form">
+                    <label for="name" class="contact-form__label">Név:</label>
+                    <input type="text" id="name" name="name" required class="contact-form__input">
+                    <label for="email" class="contact-form__label">Email cím:</label>
+                    <input type="email" id="email" name="email" required class="contact-form__input">
+                    <label for="message" class="contact-form__label">Üzenet:</label>
+                    <textarea id="message" name="message" rows="4" required class="contact-form__textarea"></textarea>
+                    <button type="submit" class="btn">Küldés</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Horváth Hanna</p>
+        </div>
+    </footer>
+</body>
+</html>
